@@ -2,6 +2,15 @@ import java.util.Scanner;
 
 public class Calcolatrice {
 
+    public static void printMenu() {
+        System.out.println("Scegli Operazione :");
+        System.out.println("1. Somma");
+        System.out.println("2. Sottrazione");
+        System.out.println("3. Divisione");
+        System.out.println("4. Moltiplicazione");
+        System.out.println("5. Esci");
+    }
+
     public static int somma(int a, int b) {
         return a + b;
     }
@@ -11,8 +20,10 @@ public class Calcolatrice {
     }
 
     public static int divisione(int a, int b) {
-        if (b == 0)
+        if (b == 0) {
             System.out.println("Errore : Divisione per 0");
+            return 0;
+        }
         return a / b;
     }
 
@@ -27,13 +38,7 @@ public class Calcolatrice {
             int scelta;
 
             do {
-
-                System.out.println("Scegli Operazione :");
-                System.out.println("1. Somma");
-                System.out.println("2. Sottrazione");
-                System.out.println("3. Divisione");
-                System.out.println("4. Moltiplicazione");
-                System.out.println("5. Esci");
+                Calcolatrice.printMenu();
                 scelta = scanner.nextInt();
 
                 switch (scelta) {
