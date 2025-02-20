@@ -2,30 +2,28 @@ import java.util.Scanner;
 
 public class Calcolatrice {
 
-    public int somma(int a, int b) {
+    public static int somma(int a, int b) {
         return a + b;
     }
 
-    public int sottrazione(int a, int b) {
+    public static int sottrazione(int a, int b) {
         return a - b;
     }
 
-    public int divisione(int a, int b) {
-        if (b == 0) {
-            throw new Error("Errore : Divisone 0");
-        }
-
+    public static int divisione(int a, int b) {
+        if (b == 0)
+            System.out.println("Errore : Divisione per 0");
         return a / b;
     }
 
-    public int moltiplicazione(int a, int b) {
+    public static int moltiplicazione(int a, int b) {
         return a * b;
     }
 
     public static void main(String[] args) {
 
-        try (Scanner scanner = new Scanner(System.in)) {
-            Calcolatrice calcolatrice = new Calcolatrice();
+        Scanner scanner = new Scanner(System.in);
+        try (scanner) {
             int scelta;
 
             do {
@@ -45,7 +43,7 @@ public class Calcolatrice {
                         System.out.println("Inserisci secondo numero :");
                         int num2 = scanner.nextInt();
                         System.out
-                                .println("Somma di : " + num1 + " e " + num2 + " = " + calcolatrice.somma(num1, num2)
+                                .println("Somma di : " + num1 + " e " + num2 + " = " + Calcolatrice.somma(num1, num2)
                                         + "\n");
                         break;
                     case 2:
@@ -54,7 +52,7 @@ public class Calcolatrice {
                         System.out.println("Inserisci secondo numero :");
                         num2 = scanner.nextInt();
                         System.out.println("Sottrazione di : " + num1 + " e " + num2 + " = "
-                                + calcolatrice.sottrazione(num1, num2) + "\n");
+                                + Calcolatrice.sottrazione(num1, num2) + "\n");
                         break;
                     case 3:
                         System.out.println("Inserisci primo numero :");
@@ -62,7 +60,7 @@ public class Calcolatrice {
                         System.out.println("Inserisci secondo numero :");
                         num2 = scanner.nextInt();
                         System.out.println("Divisione di : " + num1 + " e " + num2 + " = "
-                                + calcolatrice.divisione(num1, num2) + "\n");
+                                + Calcolatrice.divisione(num1, num2) + "\n");
                         break;
                     case 4:
                         System.out.println("Inserisci primo numero :");
@@ -70,7 +68,7 @@ public class Calcolatrice {
                         System.out.println("Inserisci secondo numero :");
                         num2 = scanner.nextInt();
                         System.out.println("Moltiplicazione di : " + num1 + " e " + num2 + " = "
-                                + calcolatrice.moltiplicazione(num1, num2) + "\n");
+                                + Calcolatrice.moltiplicazione(num1, num2) + "\n");
                         break;
                     case 5:
                         System.exit(0);

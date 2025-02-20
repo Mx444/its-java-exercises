@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "Calcolatrice",
+            "request": "launch",
+            "mainClass": "Calcolatrice",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "Fattoriale",
+            "request": "launch",
+            "mainClass": "Fattoriale",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "FattorialeRicorsivo",
+            "request": "launch",
+            "mainClass": "FattorialeRicorsivo",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "PariDispari",
+            "request": "launch",
+            "mainClass": "PariDispari",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "Persona",
+            "request": "launch",
+            "mainClass": "Persona",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "Utente",
+            "request": "launch",
+            "mainClass": "Utente",
+            "projectName": "java-exercises_a0ba1249"
+        }
+    ]
+}
