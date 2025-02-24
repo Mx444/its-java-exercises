@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SfidaFinale",
+            "request": "launch",
+            "mainClass": "lezione_2.SfidaFinale",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "TipiPrimitivi",
+            "request": "launch",
+            "mainClass": "lezione_2.TipiPrimitivi",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
             "name": "QuartoEsercizio",
             "request": "launch",
             "mainClass": "lezione_1.QuartoEsercizio",
