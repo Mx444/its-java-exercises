@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QuartoEsercizio",
+            "request": "launch",
+            "mainClass": "lezione_1.QuartoEsercizio",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "TerzoEsercizio",
+            "request": "launch",
+            "mainClass": "lezione_1.TerzoEsercizio",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "SecondoEsercizio",
+            "request": "launch",
+            "mainClass": "lezione_1.SecondoEsercizio",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "Esercizio",
+            "request": "launch",
+            "mainClass": "lezione_1.Esercizio",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
