@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TerzoEsercizio",
+            "request": "launch",
+            "mainClass": "lezione_3.TerzoEsercizio",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
             "name": "SfidaFinale",
             "request": "launch",
             "mainClass": "lezione_2.SfidaFinale",

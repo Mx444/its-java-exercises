@@ -1,8 +1,8 @@
-package home;
+package lezione_3;
 
 import java.util.Scanner;
 
-public class Calcolatrice {
+public class PrimoEsercizio {
 
     public static void printMenu() {
         System.out.println("Scegli Operazione :");
@@ -40,7 +40,7 @@ public class Calcolatrice {
             int scelta;
 
             do {
-                Calcolatrice.printMenu();
+                PrimoEsercizio.printMenu();
                 scelta = scanner.nextInt();
 
                 switch (scelta) {
@@ -50,7 +50,7 @@ public class Calcolatrice {
                         System.out.println("Inserisci secondo numero :");
                         int num2 = scanner.nextInt();
                         System.out
-                                .println("Somma di : " + num1 + " e " + num2 + " = " + Calcolatrice.somma(num1, num2)
+                                .println("Somma di : " + num1 + " e " + num2 + " = " + PrimoEsercizio.somma(num1, num2)
                                         + "\n");
                         break;
                     case 2:
@@ -59,7 +59,7 @@ public class Calcolatrice {
                         System.out.println("Inserisci secondo numero :");
                         num2 = scanner.nextInt();
                         System.out.println("Sottrazione di : " + num1 + " e " + num2 + " = "
-                                + Calcolatrice.sottrazione(num1, num2) + "\n");
+                                + PrimoEsercizio.sottrazione(num1, num2) + "\n");
                         break;
                     case 3:
                         System.out.println("Inserisci primo numero :");
@@ -67,7 +67,7 @@ public class Calcolatrice {
                         System.out.println("Inserisci secondo numero :");
                         num2 = scanner.nextInt();
                         System.out.println("Divisione di : " + num1 + " e " + num2 + " = "
-                                + Calcolatrice.divisione(num1, num2) + "\n");
+                                + PrimoEsercizio.divisione(num1, num2) + "\n");
                         break;
                     case 4:
                         System.out.println("Inserisci primo numero :");
@@ -75,7 +75,7 @@ public class Calcolatrice {
                         System.out.println("Inserisci secondo numero :");
                         num2 = scanner.nextInt();
                         System.out.println("Moltiplicazione di : " + num1 + " e " + num2 + " = "
-                                + Calcolatrice.moltiplicazione(num1, num2) + "\n");
+                                + PrimoEsercizio.moltiplicazione(num1, num2) + "\n");
                         break;
                     case 5:
                         System.exit(0);
