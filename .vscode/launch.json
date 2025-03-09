@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormUtenti",
+            "request": "launch",
+            "mainClass": "lezione_4_2.FormUtenti",
+            "projectName": "its-java-exercises_df3ed16f"
+        },
+        {
+            "type": "java",
             "name": "TerzoEsercizio",
             "request": "launch",
             "mainClass": "lezione_3.TerzoEsercizio",
