@@ -1,14 +1,18 @@
 package lezione_4_2;
 
-class Utente {
+import java.io.Serializable;
+
+class Utente implements Serializable {
     private String nome;
     private String cognome;
     private String email;
+    private int eta;
 
-    public Utente(String nome, String cognome, String email) {
+    public Utente(String nome, String cognome, String email, int eta) {
         this.nome = nome;
         this.cognome = cognome;
         this.email = email;
+        this.eta = eta;
     }
 
     public String getNome() {
@@ -23,8 +27,12 @@ class Utente {
         return email;
     }
 
+    public int getEta() {
+        return this.eta;
+    }
+
     @Override
     public String toString() {
-        return nome + " " + cognome + " - " + email;
+        return nome + " " + cognome + " - " + email + " - Età: " + eta;
     }
 }

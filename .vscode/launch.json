@@ -9,6 +9,13 @@
             "name": "FormUtenti",
             "request": "launch",
             "mainClass": "lezione_4_2.FormUtenti",
+            "projectName": "java-exercises_a0ba1249"
+        },
+        {
+            "type": "java",
+            "name": "FormUtenti",
+            "request": "launch",
+            "mainClass": "lezione_4_2.FormUtenti",
             "projectName": "its-java-exercises_df3ed16f"
         },
         {
