@@ -8,6 +8,13 @@
             "type": "java",
             "name": "GestioneCorsi",
             "request": "launch",
+            "mainClass": "lezione_5.refactor.GestioneCorsi",
+            "projectName": "its-java-exercises_df3ed16f"
+        },
+        {
+            "type": "java",
+            "name": "GestioneCorsi",
+            "request": "launch",
             "mainClass": "lezione_5.GestioneCorsi",
             "projectName": "its-java-exercises_df3ed16f"
         },
